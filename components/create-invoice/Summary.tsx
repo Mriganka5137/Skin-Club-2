@@ -12,7 +12,7 @@ const Summary = () => {
             Add Notes/ Terms
           </Label>
           <div className=" w-[340px]  max-md:w-[250px] flex justify-center items-center border border-color--4C4D4F rounded-[7px] px-3 border-opacity-20 bg-white max-sm:w-[190px]">
-            <IoMicOutline className="size-6" />
+            <IoMicOutline className="size-6 max-tablet:size-4 text-color--4C4D4F opacity-50" />
             <Input
               type="text"
               className="bg-transparent border-none focus-visible:outline-none focus-visible:ring-0  focus-visible:ring-offset-0 max-sm:text-[8px] max-sm:h-6"
