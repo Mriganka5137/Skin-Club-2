@@ -4,7 +4,7 @@ import React from "react";
 
 const CreateInvoicePage = () => {
   return (
-    <div className="  flex-grow w-full px-6 py-8 ">
+    <div className="  flex-grow w-full px-6 py-8 max-w-screen-desktop desktop:mx-auto ">
       <h1 className=" text-3xl font-light text-color--4C4D4F">Invoice</h1>
       <h3 className=" mt-2  text-color--4C4D4F opacity-85 text-lg">
         Create a invoice for your patients

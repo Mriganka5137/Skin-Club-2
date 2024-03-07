@@ -16,13 +16,13 @@ const TabsContainer = () => {
           </TabsTrigger>
           <TabsTrigger
             value="create-invoice"
-            className="data-[state=active]:bg-transparent data-[state=active]:text-color--4C4D4F data-[state=active]:shadow-none data-[state=active]:border-b-2 data-[state=active]:border-black rounded-none max-sm:text-[8px] max-sm:p-0"
+            className="data-[state=active]:bg-transparent data-[state=active]:text-color--4C4D4F data-[state=active]:shadow-none data-[state=active]:border-b-2 data-[state=active]:border-black rounded-none max-sm:text-[8px] max-sm:p-0 "
           >
             Create Invoice
           </TabsTrigger>
         </TabsList>
         <Separator className="-mt-1 " />
-        <TabsContent value="templates">templates</TabsContent>
+        <TabsContent value="templates"></TabsContent>
         <TabsContent value="create-invoice" className="px-10 pt-5 max-sm:p-0 ">
           <CreateInvoiceTab />
         </TabsContent>
